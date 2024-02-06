@@ -3,13 +3,7 @@
 
 
 def pascal_triangle(n):
-    """make a list of lists of integers
-    parameters:
-        n [int]:
-            the number of rows
-    return:
-        [list of lists of ints]:
-            representing the pascal's triangle"""
+    """make a list of lists of integers Returns an empty list if n <= 0"""
     if type(n) is not int:
         raise TypeError("n is an integer")
     mat = []
